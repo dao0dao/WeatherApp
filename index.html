@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>WeatherApp</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Weather App</h1>
+        <div class="top">
+            <div class="left">
+                <h2 class="cityName"></h2>
+                <input type="text" name="" id="" placeholder="Wpisz nazwę miasta...">
+                <button>Wyślij</button>
+                <p class="warrning"></p>
+            </div>
+            <div class="right">
+                <img src="image/unknown.png" alt="Obraz przedstawiający pogodę">
+            </div>
+        </div>
+        <div class="bot">
+            <div class="headings flexes">
+                <h4>Weather:</h3>
+                    <h4>Temperature:</h3>
+                        <h4>Humidity:</h3>
+            </div>
+            <div class="output flexes">
+                <p class="infoWeater info"></p>
+                <p class="infoTemperature info"></p>
+                <p class="infoHumidity info"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
